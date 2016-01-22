@@ -574,3 +574,7 @@ declare module turf {
     */
     function reclass(input: GeoJSON.FeatureCollection, inField: string, outField: string, translations: Array<any>): GeoJSON.FeatureCollection;
 }
+
+declare module "turf" {
+	export = turf;
+}
